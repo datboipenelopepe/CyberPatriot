@@ -158,7 +158,7 @@ set /p answer=Have you answered all the forensics questions?[y/n]:
 	rem Sets the lockout policy
 	echo Setting the lockout policy
 	net accounts /lockoutduration:30
-	net accounts /lockoutthreshold:3
+	net accounts /lockoutthreshold:5
 	net accounts /lockoutwindow:30
 
 	pause
